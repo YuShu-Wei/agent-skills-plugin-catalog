@@ -2,6 +2,8 @@
 
 [简体中文](README.zh-CN.md) | [English](README.md)
 
+[下载](https://github.com/YuShu-Wei/agent-skills-plugin-catalog/archive/refs/heads/main.zip) · [真实示例](examples/plugins.zh-CN.md) · [反馈问题](https://github.com/YuShu-Wei/agent-skills-plugin-catalog/issues/new/choose) · [版本发布](https://github.com/YuShu-Wei/agent-skills-plugin-catalog/releases)
+
 安装了很多 AI skills 和插件，却忘了它们有什么用？这个 skill 帮你把用途、使用场景、来源和安装状态记录到同一个 Markdown 文件。
 
 主要用于 Codex，帮助维护已安装的技能与插件清单。其他支持 SKILL.md 的 agent 尚未测试。
@@ -16,6 +18,8 @@
 它是一套 agent 工作指令，不是后台监听器。当 skill 可用并被选用时，它记录对话中的安装操作；在其他地方安装的项目需要让 agent 补录。
 
 ## 安装
+
+也可以直接对 Codex 说：“从 https://github.com/YuShu-Wei/agent-skills-plugin-catalog 安装 plugin-catalog skill，路径是 skills/plugin-catalog。”或按以下步骤手动安装。
 
 下载或克隆本仓库，将 `skills/plugin-catalog` 文件夹复制到 Codex 的 skills 目录，通常为 `~/.codex/skills/`。设置了自定义 `CODEX_HOME` 时，使用该目录下的 `skills` 文件夹。
 
@@ -61,7 +65,7 @@ cp -R skills/plugin-catalog ~/.codex/skills/
 
 ## 贡献
 
-欢迎通过 Issues 和 PR 改进文档或清单流程。请勿在反馈中提交凭据或私人清单。
+欢迎通过 Issues 和 PR 改进文档或清单流程。查看[贡献指南](CONTRIBUTING.zh-CN.md)。请勿在反馈中提交凭据或私人清单。
 
 ## 许可证
 
