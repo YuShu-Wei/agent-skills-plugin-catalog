@@ -35,7 +35,7 @@
 - 唯一标识：`YuShu-Wei/agent-skills-plugin-catalog:plugin-catalog`
 - 用途：在 agent 完成插件或 skill 的下载、安装、更新后维护用途清单，避免重复条目。
 - 使用场景：安装新插件时，同时记录它能做什么。
-- 来源：本地定制，准备开源发布
+- 来源：https://github.com/YuShu-Wei/agent-skills-plugin-catalog
 - 本地路径：`~/.codex/skills/plugin-catalog`
 - 状态：已安装
 - 首次记录：2026-10-06
