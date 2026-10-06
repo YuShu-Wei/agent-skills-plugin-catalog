@@ -35,7 +35,7 @@ Based on the creator's actual catalog. Personal paths are replaced with portable
 - Identifier: `YuShu-Wei/agent-skills-plugin-catalog:plugin-catalog`
 - Purpose: Maintain a Markdown catalog of skill and plugin purposes after agent-managed downloads, installations, and updates, without duplicate entries.
 - Use case: Document what a new plugin does while installing it.
-- Source: Local custom skill prepared for open-source publication
+- Source: https://github.com/YuShu-Wei/agent-skills-plugin-catalog
 - Local path: `~/.codex/skills/plugin-catalog`
 - Status: Installed
 - First recorded: 2026-10-06
