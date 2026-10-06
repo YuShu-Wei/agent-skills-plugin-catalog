@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+[Download](https://github.com/YuShu-Wei/agent-skills-plugin-catalog/archive/refs/heads/main.zip) · [Example](examples/plugins.md) · [Report an issue](https://github.com/YuShu-Wei/agent-skills-plugin-catalog/issues/new/choose) · [Releases](https://github.com/YuShu-Wei/agent-skills-plugin-catalog/releases)
+
 Remember what your AI skills and plugins do. Record their purpose, use cases, sources, and installation status in one Markdown file.
 
 A Codex skill for maintaining an installed skills and plugins inventory. Other SKILL.md-compatible hosts have not been tested.
@@ -16,6 +18,8 @@ A Codex skill for maintaining an installed skills and plugins inventory. Other S
 This is an agent instruction skill, not a background monitor. It documents work in conversations where the skill is available and selected. Installations performed elsewhere need a backfill request.
 
 ## Installation
+
+Ask Codex: “Install the plugin-catalog skill from https://github.com/YuShu-Wei/agent-skills-plugin-catalog, path skills/plugin-catalog.” Or follow the manual steps below.
 
 Download or clone this repository. Copy `skills/plugin-catalog` into your Codex skills directory, normally `~/.codex/skills/`. For a custom `CODEX_HOME`, use its `skills` directory.
 
@@ -61,7 +65,7 @@ See [the example catalog](examples/plugins.md), based on the creator's actual re
 
 ## Contributing
 
-Issues and pull requests are welcome. Do not include credentials or private catalogs in reports.
+Issues and pull requests are welcome. See [the contribution guide](CONTRIBUTING.md). Do not include credentials or private catalogs in reports.
 
 ## License
 
